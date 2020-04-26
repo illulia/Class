@@ -3,6 +3,6 @@ a = dict()
 print(a)
 a['name'] = 'python' # 1번
 a[('a',)] = 'python' # 2번
-# a[[1]] = 'python' 3번
+# a[[1]] = 'python' 3번 key값으로는 변하는 값을 넣을수 없다.
 a[250] = 'python' # 4번
 print(a)
